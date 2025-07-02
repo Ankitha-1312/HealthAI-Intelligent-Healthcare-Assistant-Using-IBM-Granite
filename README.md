@@ -1,55 +1,53 @@
 # 🩺 HealthAI: Intelligent Healthcare Assistant Using IBM Granite
 
-HealthAI is a responsive, AI-powered healthcare assistant built using Vite + React + Tailwind CSS. It enables users to describe symptoms in natural language and receive AI-driven medical insights, predicted conditions, and treatment suggestions — all powered by IBM Granite LLM.
-
-Whether you're a patient seeking quick answers or a developer experimenting with health tech interfaces, HealthAI delivers a smart, conversational experience for symptom analysis and early diagnosis.
+HealthAI is a responsive, AI-powered healthcare assistant built using Vite + React + Tailwind CSS. It allows users to describe symptoms and receive intelligent predictions and health suggestions, leveraging IBM Granite's LLM capabilities.
 
 ---
 
 🌐 **Live Demo**  
-🔗 [Visit Live Website](#)(https://effervescent-youtiao-607c24.netlify.app)
+🔗 [Click here to open HealthAI on Netlify](https://effervescent-youtiao-607c24.netlify.app)
 
 ---
 
 ## 💡 Project Overview
 
-HealthAI bridges the gap between users and accessible medical guidance through an AI chatbot. It features:
+HealthAI bridges the gap between users and accessible health support through a conversational AI chatbot. The app provides:
 
 - Symptom-based disease prediction
-- Real-time health advice generation
-- Secure and clean interface
-- Responsive design
-- Support for future backend/API integration
+- Real-time treatment suggestions
+- Modern responsive design
+- Clean code using TypeScript, Vite, and Tailwind CSS
 
 ---
 
-## 👥 User Experience
+## 👥 User Flow
 
-- **User**: Describe symptoms like “headache and nausea” in chat
-- **System**: Predicts possible illness and provides guidance
-- **Optional**: Future login system, feedback collection, and user profile tracking
+1. User opens app and sees a chatbot interface  
+2. Enters symptoms in natural language  
+3. AI responds with predictions and advice  
+4. Future features may include login, feedback, and history
 
 ---
 
 ## ✨ Features
 
-🧠 AI chatbot built with React  
-💬 Natural language symptom entry  
-💡 IBM Granite model for prediction logic (external or mock)  
-📱 Mobile-responsive design  
-🎨 Tailwind CSS-based styling  
-⚙️ Configurable frontend with Vite
+- 🤖 Conversational chatbot UI
+- 📊 Health metrics visual components
+- 🎨 Styled with Tailwind CSS
+- ⚡ Fast Vite build and hot reloading
+- 🧠 Integration-ready with IBM Granite for NLP
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer     | Technologies                               |
-|-----------|--------------------------------------------|
-| Frontend  | Vite, React.js, TypeScript, Tailwind CSS   |
-| Backend   | (Optional) Node.js, Express (for future API) |
-| AI Engine | IBM Granite LLM (via integration or prompts) |
-| Deployment| Netlify *(Frontend ready for deploy)*       |
+| Layer     | Technology                        |
+|-----------|------------------------------------|
+| Frontend  | React.js, TypeScript, Tailwind CSS |
+| Build     | Vite                               |
+| Styling   | Tailwind, Custom CSS               |
+| AI Engine | IBM Granite LLM (Mock/API)         |
+| Hosting   | Netlify or GitHub Pages            |
 
 ---
 
@@ -57,15 +55,15 @@ HealthAI bridges the gap between users and accessible medical guidance through a
 
 healthai/
 ├── src/
-│ ├── components/
-│ │ ├── AuthModal.tsx
-│ │ ├── ChatInterface.tsx
-│ │ ├── FeatureCards.tsx
-│ │ ├── Header.tsx
-│ │ └── HealthMetrics.tsx
-│ ├── App.tsx
-│ ├── main.tsx
-│ ├── index.css
+│   ├── components/
+│   │   ├── AuthModal.tsx
+│   │   ├── ChatInterface.tsx
+│   │   ├── FeatureCards.tsx
+│   │   ├── Header.tsx
+│   │   └── HealthMetrics.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
 ├── styles.css
 ├── script.js
 ├── index.html
@@ -75,31 +73,29 @@ healthai/
 ├── vite.config.ts
 ├── tsconfig.json
 └── README.md
-🔒 Known Limitations
-Currently frontend only — no backend storage
+## 🔒 Known Limitations
 
-IBM Granite connection mocked or under integration
+- 🔧 Currently frontend only — no backend or authentication  
+- 🧠 AI replies are static or mock-based until connected to IBM Granite API  
+- 🗂️ No symptom history or user accounts yet  
 
-No authentication implemented yet
+---
 
-🔮 Future Enhancements
-Backend API for storing chat/prediction history
+## 🔮 Future Enhancements
 
-User login and feedback loop
+- Full AI backend with IBM Granite or Hugging Face  
+- User login and profile history  
+- Feedback system  
+- Doctor chat integration  
+- Progressive Web App (PWA) support  
 
-Real-time doctor chat
+---
 
-Support for multiple languages
+## 👩‍💻 Team
 
-Progressive Web App (PWA) version
+**Team ID:** LTVIP2025TMID33300  
 
-📧 Contact
-Team ID: LTVIP2025TMID33300
-Team Members:
-
-Chigirala Ankitha (Team Leader)
-
-Rishitha Akula
-
-Kota Vishnupriya
-
+**Team Members:**
+- Chigirala Ankitha 
+- Rishitha Akula  
+- Kota Vishnupriya
