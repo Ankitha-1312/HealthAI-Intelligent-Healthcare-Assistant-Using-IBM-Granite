@@ -5,7 +5,7 @@ HealthAI is a responsive, AI-powered healthcare assistant built using Vite + Rea
 ---
 
 🌐 **Live Demo**  
-🔗 [Click here to open HealthAI on Netlify](https://effervescent-youtiao-607c24.netlify.app)
+🔗 [visit My WebSite](https://effervescent-youtiao-607c24.netlify.app)
 
 ---
 
